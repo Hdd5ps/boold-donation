@@ -1,0 +1,5 @@
+// This is a placeholder file for the blood drop icon
+// In a real app, you would replace this with an actual PNG image
+// For now, we'll use react-native-vector-icons as fallback
+
+export default require('react-native-vector-icons/MaterialIcons');
