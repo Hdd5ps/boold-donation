@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.blooddonationapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:5:5-79
+13-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:7:5-69
+15-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:7:22-66
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:8:5-67
+16-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:9:5-66
+17-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:9:22-63
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:10:22-78
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:11:5-68
+19-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:11:22-65
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.blooddonationapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.blooddonationapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+26
+27    <application
+27-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:13:5-32:19
+28        android:name="com.blooddonationapp.MainApplication"
+28-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:14:7-38
+29        android:allowBackup="false"
+29-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:18:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] /home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:16:7-41
+33        android:label="@string/app_name"
+33-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:15:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:17:7-52
+35        android:theme="@style/AppTheme" >
+35-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:19:7-38
+36        <activity
+36-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:20:7-31:18
+37            android:name="com.blooddonationapp.MainActivity"
+37-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:21:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+38-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:23:9-118
+39            android:exported="true"
+39-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:26:9-32
+40            android:label="@string/app_name"
+40-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:22:9-41
+41            android:launchMode="singleTask"
+41-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:24:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:25:9-51
+43            <intent-filter>
+43-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:27:9-30:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:28:13-65
+44-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:28:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:29:13-73
+46-->/workspaces/boold-donation/android/app/src/main/AndroidManifest.xml:29:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+52            android:authorities="com.blooddonationapp.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] /home/codespace/.gradle/caches/transforms-4/b75ea12f6056dd2942f06991a0c1d776/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-4/f4745145419aa5711dd5ff097c3cb4ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-4/f4745145419aa5711dd5ff097c3cb4ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/codespace/.gradle/caches/transforms-4/f4745145419aa5711dd5ff097c3cb4ec/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+60        </provider>
+61
+62        <meta-data
+62-->[com.facebook.soloader:soloader:0.11.0] /home/codespace/.gradle/caches/transforms-4/57d64224c0d218b0fc5c5563ef4f3c7c/transformed/jetified-soloader-0.11.0/AndroidManifest.xml:12:9-14:37
+63            android:name="com.facebook.soloader.enabled"
+63-->[com.facebook.soloader:soloader:0.11.0] /home/codespace/.gradle/caches/transforms-4/57d64224c0d218b0fc5c5563ef4f3c7c/transformed/jetified-soloader-0.11.0/AndroidManifest.xml:13:13-57
+64            android:value="false" />
+64-->[com.facebook.soloader:soloader:0.11.0] /home/codespace/.gradle/caches/transforms-4/57d64224c0d218b0fc5c5563ef4f3c7c/transformed/jetified-soloader-0.11.0/AndroidManifest.xml:14:13-34
+65    </application>
+66
+67</manifest>

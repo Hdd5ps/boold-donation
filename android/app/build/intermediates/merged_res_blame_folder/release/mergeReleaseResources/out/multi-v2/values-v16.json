@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.blooddonationapp-mergeReleaseResources-24:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/codespace/.gradle/caches/transforms-4/bacb2f8f94715fa89f22a034d8ed853f/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/codespace/.gradle/caches/transforms-4/452070664dbbd420ad95051297eedfd5/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
